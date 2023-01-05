@@ -3,7 +3,7 @@ import mysql.connector as mycon
 def create_connection():
     conn = mycon.connect(
         username = "root",
-        password = "Welcome123$",
+        password = "password",
         host = "localhost",
         database = "trains_db"
     )
@@ -14,7 +14,7 @@ def create_connection():
 def initialise_database():
     conn = mycon.connect(
         username = "root",
-        password = "Welcome123$",
+        password = "password",
         host = "localhost"
     )
 
