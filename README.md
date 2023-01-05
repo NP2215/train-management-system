@@ -8,20 +8,47 @@ The project is dependent on MySQL, and hence requires a connector. The other mai
 
 # Description of files
 
-- main.py
+- **main.py**: 
 This file consists of all the main functions of the file. This is the file that must be run in order to execute the project.
 
-- user.py
+- **user.py**: 
 This file consists of all the functions that are available to the user. Dependent on `helper.py` and `database_creator.py`.
 
-- admin.py
+- **admin.py**: 
 This file consists of all the functions that are available to the admin. Dependent on `helper.py` and `database_creator.py`.
 
-- helper.py
+- **helper.py**: 
 Consists of helper functions.
 
-- database_creator.py
+- **database_creator.py**: 
 Consiss of the functions that are related to the creation and manipulation of the database structure.
+
+# How to run the project
+
+1. Download the entire project, then create a virtual environment:
+```
+python -m venv env
+```
+
+2. Activate the environment:
+- For Windows (Win)
+```
+env\Scripts\activate
+```
+- For Macintosh (DarWin)
+```
+source env/bin/activate
+```
+
+3. Download all packages:
+```
+pip install -r requirements.txt
+```
+
+4. Run the `main.py` file:
+```
+python main.py
+```
 
 # Areas to improve
 
