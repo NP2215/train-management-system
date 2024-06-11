@@ -5,6 +5,7 @@ A Python and MySQL connected project that works as a train management system. Pr
 # Requirements
 
 The project is dependent on MySQL, and hence requires a connector. The other main modules used in this project include prettytable, used to display the data.
+Python versions of 3.8 and higher and preferred for this project.
 
 # Description of files
 
